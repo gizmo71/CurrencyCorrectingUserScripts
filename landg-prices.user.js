@@ -3,12 +3,12 @@
 // @namespace   org.davegymer
 // @description Change L&G fund prices from pence to pounds
 // @match       https://mya.landg.com/product/investments?productId=*
-// @version     20230617.1
+// @version     20230917.0
 // @require     http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js
 // @require     https://gist.github.com/raw/2625891/waitForKeyElements.js
 // @require     https://raw.githubusercontent.com/MikeMcl/decimal.js/master/decimal.js
-// @updateURL    https://github.com/gizmo71/CurrencyCorrectingUserScripts/raw/main/landg-prices.user.js
-// @downloadURL  https://github.com/gizmo71/CurrencyCorrectingUserScripts/raw/main/landg-prices.user.js
+// @updateURL   https://github.com/gizmo71/CurrencyCorrectingUserScripts/raw/main/landg-prices.user.js
+// @downloadURL https://github.com/gizmo71/CurrencyCorrectingUserScripts/raw/main/landg-prices.user.js
 // @grant       GM_addStyle
 // ==/UserScript==
 
