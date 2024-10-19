@@ -3,7 +3,7 @@
 // @namespace   org.davegymer
 // @description Add copy function to YouInvest prices
 // @match       https://www.ajbell.co.uk/platform/*
-// @version     20241019.00
+// @version     20241019.01
 // @require     http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js
 // @require     https://gist.github.com/raw/2625891/waitForKeyElements.js
 // @require     https://raw.githubusercontent.com/MikeMcl/decimal.js/master/decimal.js
