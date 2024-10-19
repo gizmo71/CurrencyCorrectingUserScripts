@@ -18,7 +18,7 @@ function convert(jNode) {
     if (price) {
         jNode.css("background", "lightgoldenrodyellow");
         var poundsPence = new Decimal(price[2].replace(',', ''));
-        jNode.html(price[1] + "£" + poundsPence + "<a href='javascript:navigator.clipboard.writeText(&quot;" + poundsPence + "&quot;);' title=' + price + '>📋</a>");
+        jNode.html(price[1] + "£" + poundsPence + "<a href='javascript:navigator.clipboard.writeText(&quot;" + poundsPence + "&quot;);' title='" + price + "'>📋</a>");
     }
 }
 //console.log("gonna wait");
