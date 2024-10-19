@@ -3,7 +3,7 @@
 // @namespace   org.davegymer
 // @description Add copy function to YouInvest prices
 // @match       https://www.ajbell.co.uk/platform/*
-// @version     20241019.01
+// @version     20241019.00
 // @require     http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js
 // @require     https://gist.github.com/raw/2625891/waitForKeyElements.js
 // @require     https://raw.githubusercontent.com/MikeMcl/decimal.js/master/decimal.js
@@ -18,7 +18,7 @@ function convert(jNode) {
     if (price) {
         jNode.css("background", "lightgoldenrodyellow");
         var poundsPence = new Decimal(price[2].replace(',', ''));
-        jNode.html(price[1] + "£" + poundsPence + "<a href='javascript:navigator.clipboard.writeText(&quot;" + poundsPence + "&quot;);' title='" + price + "'>📋</a>");
+        jNode.html(`${price[1]}£${poundsPence}<a href='javascript:navigator.clipboard.writeText(&quot;${poundsPence}&quot;);' title='${price[0]}'>📋</a>`);
     }
 }
 //console.log("gonna wait");
